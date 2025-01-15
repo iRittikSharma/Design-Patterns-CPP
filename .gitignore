@@ -1,0 +1,42 @@
+# Ignore object files
+*.o
+*.obj
+
+# Ignore compiled executables
+*.exe
+*.out
+*.bin
+*.app
+
+# Ignore static libraries
+*.a
+*.lib
+
+# Ignore shared libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore build and debug directories
+/build/
+/bin/
+/obj/
+/Debug/
+/Release/
+/out/
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# Ignore other temporary files
+*.log
+*.tmp
+
+# Ignore core dump files
+core.*
